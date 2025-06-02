@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="./styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+
+</head>
+<body>
+    <div class="grid-area container">
+
+        <div class="item-1 item">
+            <div class="logo">
+                <img src="./assests/icons/logo-spotify.png" alt="">
+            </div>
+            <section class="hub">
+                <a class="hub-home" href="">
+                    <span class="fa fa-home home"></span>
+                    <span>Home</span>
+                </a>
+                <a href="">
+                    <span class="fa fa-search search"></span>
+                    <span>Search</span>
+                </a>                
+            </section>
+        </div>
+
+        <div class="item-2">
+            <div class="area-1">
+                <span class="fa fa-search search"></span>
+                <input id="input-search" type="text" maxlength="800" placeholder="What you want to listen?">
+                <span>|</span>
+                <a href="">
+                    <span class="fa fa-inbox inbox"></span>
+                </a>
+            </div>
+            <div class="area-3">
+                <a href="" class="premium">
+                    <div>Premium</div>
+                </a>
+                <a href="">
+                    <div class="support">
+                        Support
+                    </div>
+                </a>
+                <a href="">
+                    <div class="download">
+                        Download
+                    </div>
+                </a>
+                <span>|</span>
+                <a href="">
+                    <div class="subscribe">
+                        Subscribe
+                    </div>
+                </a>
+                <button class="area-3-button">
+                    Login
+                </button>
+            </div>
+        </div>
+
+        <div class="item-4 item">
+            <div class="library-header">
+                <span class="library-header-title">Library</span>
+                <span class="fa fa-plus plus library-header-plus"></span>
+            </div>
+            <section class="library-box-1">
+                <div class="library-box-1-title">
+                    Create your first playlist
+                </div>
+                <div class="library-box-1-subtitle">
+                    That's easy, we'll help you
+                </div>
+                <button class="library-box-1-button">
+                    Create Playlist
+                </button>
+            </section>
+            <section class="library-box-2">
+                <div class="library-box-2-title">
+                    Want to follow a podcast?
+                </div>
+                <div class="library-box-2-subtitle">
+                    We'll call you about new episodes
+                </div>
+                <button class="library-box-2-button">
+                    Explore podcasts
+                </button>
+            </section>
+            <a>
+                <div class="cookies">Cookies</div>
+            </a>
+            <button class="language">
+                <span class="fa fa-globe globe"></span>
+                <span>English</span>
+            </button>
+        </div>
+
+        <div class="item-5 item">
+            <div class="categories">
+                <button class="categories-all">All</button>
+                <button>Songs</button>
+                <button>Podcasts</button>
+            </div>
+            <section class="main-section">
+                <div class="popular-artists">
+                    POPULAR ARTIST
+                </div>
+                <section class="artist-list">
+                    <a class="artist" href="">
+                        <img src="/assests/artists/matue.jpeg" alt="">
+                        <div class="artist-description">
+                            <div class="artist-name">
+                                Matuê
+                            </div>
+                            <div class="category">
+                                Artist
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="artist" href="">
+                        <img src="/assests/artists/angra.jpeg" alt="">
+                        <div class="artist-description">
+                            <div class="artist-name">
+                                Angra
+                            </div>
+                            <div class="category">
+                                Band
+                            </div>
+                        </div>
+                    </a>
+
+                    <a class="artist" href="">
+                        <img src="/assests/artists/keinemisik.jpeg" alt="">
+                        <div class="artist-description">
+                            <div class="artist-name">
+                                Keinemusik
+                            </div>
+                            <div class="category">
+                                Band
+                            </div>
+                        </div>
+                    </a>
+                </section>
+                <!-- <section class="artist-list">
+                    <a class="artist" href="">
+                        <img src="/assests/artists/keinemisik.jpeg" alt="">
+                        <div class="artist-description">
+                            <div class="artist-name">
+                                Keinemusik
+                            </div>
+                            <div class="category">
+                                Band
+                            </div>
+                        </div>
+                    </a>
+                </section> -->
+            </section>
+        </div>
+
+        <div class="item-6 item">
+            <section class="sidebar-header">
+                <span class="fa fa-headphones headphones"></span>
+                <!-- <div>Recently</div>
+                <div>Played</div> -->
+            </section>
+            <section class="siderbar-artists">
+                <a href="">
+                    <img src="./assests/artists/yago.jpeg" alt="">
+                </a>
+                <a href="">
+                    <img src="./assests/artists/diniz.jpeg" alt="">
+                </a>
+                <a href="">
+                    <img src="./assests/artists/rorosa.jpg" alt="">
+                </a>
+                <a href="">
+                    <img src="./assests/artists/bk.jpeg" alt="">
+                </a>
+                <a href="">
+                    <img src="./assests/artists/fbc.jpeg" alt="">
+                </a>
+            </section>
+        </div>
+
+    </div>
+</body>
+</html>
