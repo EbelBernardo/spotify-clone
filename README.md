@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Este projeto é uma reprodução visual da interface do Spotify, criada com **HTML** e **CSS puro**. Foi desenvolvido como prática de estruturação de páginas e estilização com CSS.
+Este projeto é uma recriação visual da interface do Spotify, criada com **HTML** e **CSS puro**. Foi desenvolvido como prática de estruturação de páginas e estilização com CSS.
 
 > ⚠️ **Importante:**  
 > - Este projeto **não é responsivo** (ou seja, não se adapta bem a telas menores).  
